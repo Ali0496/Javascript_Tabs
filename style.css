@@ -30,7 +30,6 @@ li:hover {
 }
 .card {
   display: none;
-  
 }
 .card h2 {
   font-size: 30px;
@@ -47,7 +46,28 @@ li:hover {
   height: 500px;
 }
 
-
 .show {
   display: block;
+}
+
+@media (max-width: 1200px) {
+  p{
+    padding: 20px;
+  }
+  .card img {
+    width: 700px;
+    height: 450px;
+    margin: 30px;
+  }
+}
+@media (max-width: 700px){
+  .card img {
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+  }
+  li {
+    font-size: 25px;
+    line-height: 60px;
+  }
 }
